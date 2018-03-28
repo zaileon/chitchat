@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/zaileon/webprogramming/data"
+	"github.com/zaileon/chitchat/data"
 )
 
 func session(w http.ResponseWriter, r *http.Request) (sess data.Session, err error) {

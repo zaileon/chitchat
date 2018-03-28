@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/zaileon/webprogramming/data"
+	"github.com/zaileon/chitchat/data"
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
